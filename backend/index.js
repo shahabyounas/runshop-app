@@ -1,5 +1,6 @@
 const express = require("express");
 const helmet = require("helmet");
+const cors = require("cors");
 const app = express();
 const port = 3000;
 const dev = app.get("env") == "development";
@@ -7,6 +8,7 @@ const db = require("./db");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 app.use(helmet());
 
 app.use("/api/v1", require("./api/v1"));

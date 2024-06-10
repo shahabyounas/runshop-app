@@ -77,16 +77,22 @@ async function seeder(targetSeed, data = []) {
   switch (targetSeed) {
     case "bets_placed.csv":
       await seedBets(data);
+      break;
     case "individual_fixtures.csv":
       await seedIndividualFixtures(data);
+      break;
     case "markets.csv":
       await seedMarkets(data);
+      break;
     case "model_selections.csv":
       await seedModelSelections(data);
+      break;
     case "participant_fixtures.csv":
       await seedParticipantFixtures(data);
+      break;
     case "traders.csv":
       await seedTraders(data);
+      break;
     default:
       console.log("Seed done");
   }

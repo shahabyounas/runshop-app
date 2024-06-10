@@ -1,9 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Runshop Tech Test: Bet Resolution
 
-Currently, two official plugins are available:
+This application helps the operational team at Runshop resolve bets placed on various sporting events. The interface allows users to input certain information and resolve the matching bets.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# runshop-app
+## Instructions for Running the Application
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/shahabyounas/runshop-app
+
+
+
+2. **To Setup frontend**:
+   npm install in the root folder
+
+   npm run dev - To run the application
+
+3. **To Setup backend**:
+   cd backend && npm install
+
+   Please run the MongoDB locally and create a database **runshop**
+
+   node index.js - To run the backend server
+
+
+
+
+
+
+
+
+

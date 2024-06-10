@@ -1,3 +1,5 @@
+const { format } = require("date-fns");
+
 function getTimeStamp(date) {
   if (typeof date === "string" || date instanceof Date) {
     const d = new Date(date);
@@ -8,4 +10,5 @@ function getTimeStamp(date) {
 
 module.exports = {
   getTimeStamp,
+  format,
 };

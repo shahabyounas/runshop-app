@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { getTimeStamp } = require("../util/time");
+const { getTimeStamp } = require("../util/datetime");
 
 const { Schema } = mongoose;
 
